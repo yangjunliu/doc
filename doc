@@ -4,3 +4,5 @@
   3、安装webpack(我安装的是webpack2.2.0版本)
     a、可以用npm view 查看安装包的信息
       例如：npm view webpack versions json => 查看npm上所有webpack的版本的信息
+    b、使用命令 npm i -D webpack@2.2.0 在开发环境安装webpakc，安装成功后会出现node_modules目录和package-lock.json文件
+  4、
