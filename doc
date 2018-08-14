@@ -1,0 +1,6 @@
+# 初始化webpack
+  1、首先安装npm   设置淘宝镜像(npm config set registry http://registry.npm.taobao.org/)
+  2、到指定文件夹下面执行  npm init。然后根据提示填写内容，也可一直回车就可以看到当前文件生成一个package.js文件。
+  3、安装webpack(我安装的是webpack2.2.0版本)
+    a、可以用npm view 查看安装包的信息
+      例如：npm view webpack versions json => 查看npm上所有webpack的版本的信息
