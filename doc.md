@@ -20,3 +20,6 @@
   8、安装react：npm i -D react react-dom
   
   9、安装webpack-dev-server: npm i -D webpack-dev-server@2.9.7(注意有版本兼容问题)
+  
+  10、安装react-route：npm i -D react-router-dom
+        文档链接 => http://react-guide.github.io/react-router-cn/docs/API.html
