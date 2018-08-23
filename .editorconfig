@@ -1,0 +1,21 @@
+# http://editorconfig.org
+
+root = true
+
+# 对所有文件生效
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# 对后缀名为 md 的文件生效
+[*.md]
+trim_trailing_whitespace = false
+
+作者：九彩拼盘
+链接：https://www.jianshu.com/p/712cea0ef70e
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
