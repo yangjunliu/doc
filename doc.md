@@ -23,3 +23,4 @@
   
   10、安装react-route：npm i -D react-router-dom
         文档链接 => http://react-guide.github.io/react-router-cn/docs/API.html
+  11、安装mobx：npm i -S mobx@3.1.9 mobx-react@4.1.8(注意有版本兼容问题)
