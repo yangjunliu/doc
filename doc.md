@@ -27,4 +27,4 @@
   
   12、安装cs-loader：npm i -D css-loader style-loader
   
-  13、安装react-css-loader：npm i -S react-css-modules
+  13、安装react-css-loader：npm i -S css-loader@0.28.0(注意有版本兼容问题)
