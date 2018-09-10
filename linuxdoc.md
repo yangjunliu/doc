@@ -1,4 +1,4 @@
-一、linux用户管理
+#一、linux用户管理
 
  1、 group 命令 
      ①：/etc/group 当前系统中所有用户组
