@@ -1,4 +1,4 @@
-other link [链接](https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/strace.html)
+other link [链接](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
 # 一、linux用户管理
 
  ## 1. group 命令 
