@@ -66,8 +66,21 @@ other link [链接](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/inde
      -r：删除用户的同时，删除与用户相关的所有文件。
    ## 6. nologin
       ①：touch /etc/nologin  （禁止所有用户登录。）
- # 二、文件搜索命令
-   ## 1. grep命令
-
-
+      
+# 二、常用命令
+ 
+   ## 1. top
+      a: 查看计算机负载情况
+   ## 2. ps
+      a: ps aux 查看所有进程
+   ## 3. kill
+      a: kill -1/9 PID 
+	    b: killall -1/9 进程名称
+	    c: plill -9 -t tpy 关闭指定登录的终端用户
+   ## 4. w
+      a: 计算机当前终端的连接数量
+   ## 5. nohup
+      a: nohup [命令] & 后台运行脱离终端
+ 
+    
     
