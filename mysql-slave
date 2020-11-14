@@ -1,0 +1,4 @@
+1. install
+在线安装mysql
+  配置yum源：
+  1 添加MySQL的yum源文件：vi /etc/yum.repos.d/mysql-community.repo
