@@ -2,3 +2,10 @@
 在线安装mysql
   配置yum源：
   1 添加MySQL的yum源文件：vi /etc/yum.repos.d/mysql-community.repo
+  2 [mysql57-community]
+    name=MySQL 5.7 Community Server
+    baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7$basearch/
+    enabled=1
+    gpgcheck=1
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-mysql
+  3 sudo yum install mysql-community-server
