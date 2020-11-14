@@ -6,6 +6,20 @@
     name=MySQL 5.7 Community Server
     baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7$basearch/
     enabled=1
-    gpgcheck=1
+    gpgcheck=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-mysql
   3 sudo yum install mysql-community-server
+  4  查看服务状态 systemctl status mysqld
+  5 开服MySQL服务 systemctl start mysqld
+  6 查看mysql5.7以上版本默认临时密码位置 /var/log/mysqld.log
+  7 修改密码：mysqladmin -u root -p password
+  8 主数据库配置 master：/etc/my.cnf
+    #节点id
+    server-id=1
+    #binlog日子文件前缀
+    log-bin=mysql-bin
+    #同步到从数据库
+    log-slave=updates
+    #忽略同步所有错误操作
+    slave-skip-errors=all
+  9 
