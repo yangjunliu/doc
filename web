@@ -1,0 +1,15 @@
+# vite init
+npm init vite@latest
+npm install
+
+# nvm
+nvm list available
+nvm install version
+nvm list
+nvm use version
+nvm uninstall
+
+#nrm
+nrm ls
+nrm use tag
+nrm add tag addr
