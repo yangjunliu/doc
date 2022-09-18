@@ -13,3 +13,6 @@ nvm uninstall
 nrm ls
 nrm use tag
 nrm add tag addr
+
+#h5 mobile 
+npm install postcss-px-to-viewport -D
