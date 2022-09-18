@@ -16,3 +16,5 @@ nrm add tag addr
 
 #h5 mobile 
 npm install postcss-px-to-viewport -D
+# 性能分析
+npm install --save-dev rollup-plugin-visualizer
