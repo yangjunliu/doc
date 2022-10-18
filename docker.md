@@ -43,7 +43,7 @@ LABEL Author="Stone"
 LABEL Version="2022.6"
 LABEL Description="PHP 7.3 开发环境镜像."
 
-docker build .
+docker build -t php:7.38 .
 
 docker run -p 9000:9000 --name php7.38 \
 -v /data/project_sdk:/var/www/html:rw \
@@ -51,7 +51,6 @@ docker run -p 9000:9000 --name php7.38 \
 -v /data/docker/php7.3/logs:/var/log/php \
 -v /etc/localtime:/etc/localtime:ro \
 -d php:7.38
-
 
 docker run \
 -p 6379:6379 --name redis \
