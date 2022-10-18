@@ -45,6 +45,9 @@ LABEL Description="PHP 7.3.8 开发环境镜像."
 
 docker build -t php:7.38 .
 
+docker run --rm --name php7.38 
+docker cp php7.38:/usr/local/etc /data/docker/php7.38
+
 docker run -p 9000:9000 --name php7.38 \
 -v /data/project_sdk:/var/www/html:rw \
 -v /data/docker/php7.3/etc:/usr/local/etc \
